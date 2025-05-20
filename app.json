@@ -22,7 +22,7 @@
       },
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBIoDHTdghaj9sKOnYbJv4sOpOQ1mEkBcM"
+          "apiKey": os.getenv("API_KEY")
         }
       }
     },
